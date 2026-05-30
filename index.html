@@ -42,26 +42,30 @@
         <a class="project-card" href="https://havannah.slowinput.org/">
           <span class="project-kicker">Board game</span>
           <span class="project-title">Havannah</span>
-          <span class="project-desc">Connection strategy game on a hex board.</span>
+          <span class="project-desc">Connection-based strategy game played on a hexagonal board.</span>
         </a>
 
         <a class="project-card" href="https://faro.slowinput.org/">
           <span class="project-kicker">Card game</span>
           <span class="project-title">Faro</span>
-          <span class="project-desc">Remake of the main game of the wild west.</span>
+          <span class="project-desc">Iconic card game of the wild west.</span>
         </a>
 
         <a class="project-card" href="https://breakthrough.slowinput.org/">
           <span class="project-kicker">Board game</span>
           <span class="project-title">Breakthrough</span>
-          <span class="project-desc">Race-based strategy game on a chess board.</span>
+          <span class="project-desc">Race-based strategy game contested on a chess board.</span>
         </a>
       </nav>
 
       <footer class="site-footer">
         <a href="https://buymeacoffee.com/iamwasichux">Support</a>
         <a href="https://github.com/wasichu/siroot">GitHub</a>
+        <span>&copy; <span id="year"></span></span>
       </footer>
     </main>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
