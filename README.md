@@ -4,11 +4,11 @@ Root page for [slowinput.org](https://slowinput.org).
 
 This is just the front door. A tiny static directory for a few projects:
 
-* [Faro](https://faro.slowinput.org)
-* [Havannah](https://havannah.slowinput.org)
-* [Breakthrough](https://breakthrough.slowinput.org)
-* [Randos](https://randos.slowinput.org)
 * [Hours in Spanish](https://hoursinspanish.com)
+* [Randos](https://randos.slowinput.org)
+* [Havannah](https://havannah.slowinput.org)
+* [Faro](https://faro.slowinput.org)
+* [Breakthrough](https://breakthrough.slowinput.org)
 
 No framework. No build step. No spiritual journey through a JavaScript toolchain. It is HTML, CSS, and the logo.
 
