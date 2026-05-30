@@ -237,16 +237,34 @@ h1 {
   }
 
   .intro {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 22px;
   }
 
+  .intro-copy {
+    display: contents;
+  }
+
+  .eyebrow {
+    order: 1;
+    margin: 0;
+  }
+
   .logo {
-    width: min(46vw, 168px);
+    order: 2;
+    width: min(58vw, 220px);
   }
 
   h1 {
-    font-size: clamp(3.5rem, 19vw, 5.8rem);
+    display: none;
+  }
+
+  .intro-copy p:last-child {
+    order: 3;
+    margin: 0;
+    text-align: center;
   }
 
   .directory {
