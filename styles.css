@@ -2,12 +2,8 @@
   color-scheme: light;
   --ink: #10202a;
   --muted: #526a6d;
-  --paper: #fbfaf3;
-  --paper-strong: #fffdf7;
   --line: rgba(16, 32, 42, 0.18);
-  --gold: #e2aa51;
   --rust: #b75d37;
-  --sea: #587a78;
   --night: #132734;
   --shadow: 0 22px 70px rgba(37, 26, 14, 0.17);
   font-family:
