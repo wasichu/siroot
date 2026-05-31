@@ -193,6 +193,7 @@ h1 {
 .project-desc {
   color: var(--muted);
   font-size: 0.98rem;
+  min-height: calc(1.45em * 3);
   line-height: 1.45;
 }
 
@@ -269,6 +270,10 @@ h1 {
 
   .project-card {
     min-height: 180px;
+  }
+
+  .project-desc {
+    min-height: 0;
   }
 }
 
