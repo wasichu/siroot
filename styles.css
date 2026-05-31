@@ -98,9 +98,9 @@ h1 {
 .project-card {
   min-height: 230px;
   padding: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  align-content: end;
   gap: 10px;
   overflow: hidden;
   position: relative;
@@ -183,8 +183,6 @@ h1 {
 .project-title {
   color: var(--night);
   min-height: calc(1.05em * 2);
-  display: flex;
-  align-items: flex-start;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.75rem, 2.6vw, 2rem);
   font-weight: 700;
@@ -275,6 +273,7 @@ h1 {
     min-height: 180px;
   }
 
+  .project-title,
   .project-desc {
     min-height: 0;
   }
